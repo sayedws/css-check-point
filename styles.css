@@ -5,6 +5,7 @@
 }
 .body {
     background-color: gray;
+
 }
 
 .menulist {
@@ -52,5 +53,26 @@
     color: red;
     background-color: black;
     text-align: center;
+    border-radius: 25px;
 
+    padding-bottom: 50px;
+
+}
+
+.fa-instagram {
+    color: rgb(255, 0, 179);
+    font-size: 60px;
+}
+#facebook {
+    color: blue;
+    font-size: 60px;
+
+}
+.fa-twitter {
+    color: aqua;
+
+}
+.fa-google {
+    color: red;
+    font-size: 60px;
 }

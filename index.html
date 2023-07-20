@@ -10,46 +10,64 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ae0c37b7d6.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
-  <body>
+  <body class="body">
     <header>
       <nav>
         <ul class="menu">
+          <a href="#home">
           <li class="menulist">Home</li>
+        </a>
+        <a href="#about">
           <li class="menulist">About us</li>
+        </a>
+        <a href="#contactus">
           <li class="menulist">Contact us</li>
+        </a>
         </ul>
       </nav>
     </header>
     <main>
       <div class="title">
-        <h1>welcome to the future</h1>
+        <h1 id="home">welcome to the future</h1>
         <img
           src="https://www.disruptunisia.com/images/5adf3627dba7e.jpg"
           alt="pic go"
         />
       </div>
       <div class="aboutus">
-        <h2>About Go My Code :</h2>
+        <h2 id="about">About Go My Code :</h2>
         <p>
           Chez Gomycode, notre objectif est de simplifier l'apprentissage des
           technologies pour tous. Nous offrons des solutions innovantes dans le
           domaine de l'éducation pour vous aider à apprendre, pratiquer et
           réaliser vos rêves.
         </p>
-        <video controls src="Le futur est là. Nous sommes prêts...et vous_.mp4"></video>
-      
+        <video
+          controls
+          src="Le futur est là. Nous sommes prêts...et vous_.mp4"
+        ></video>
       </div>
       <div class="contactus">
-        <h2>Contact us:</h2>
-        <p>
-          Go My Code is available on all social media.
-        </p>
+        <h2 id="contactus">Contact us:</h2>
+        <p>Go My Code is available on all social media.</p>
       </div>
       <footer class="footer">
-        <p>copy rights</p>
+        <hr>
+        <p>copy rights</p> 
         
+        <i class="fa-brands fa-twitter" style="font-size: 60px"></i>
+        <a href="https://www.facebook.com/gomycode/?locale=fr_FR">
+        <i class="fa-brands fa-facebook " id="facebook"></i>
+      </a>
+        <i class="fa-brands fa-instagram" id="instagram"></i>
+        <i class="fa-brands fa-google" id="google"></i>
+
       </footer>
     </main>
   </body>
